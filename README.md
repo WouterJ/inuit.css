@@ -31,6 +31,14 @@ _lot_ more.
 * You need a framework that supplies design (I’d recommend
   [Bootstrap](http://twitter.github.com/bootstrap/) for that).
 
+## Browser support
+
+inuit.css is a modern framework for modern browsers. It takes advantage of
+[normalize.css](http://necolas.github.com/normalize.css/) and global
+`box-sizing:border-box;` (optional). As such, inuit.css is intended for **IE8**
+and above only.  The last release to support IE7 was
+[v4.1.5](https://github.com/csswizardry/inuit.css/archive/v4.1.5.zip).
+
 ## The developer
 
 There are a million-and-one different CSS frameworks out there so this rather
@@ -57,6 +65,8 @@ condensed into one powerful little framework.
 ## Installation
 
 **Requires Sass 3.2**
+
+[**Watch _An introduction to inuit.css_ screencast**](http://www.youtube.com/watch?v=IkaILVOgGRA&hd=1)
 
 inuit.css is incredibly easy to get up and running (provided you’re all set for
 Sass). Simply [download the latest version](https://github.com/csswizardry/inuit.css/zipball/master)
@@ -141,7 +151,12 @@ at the [inuit.css Trello board](https://trello.com/board/inuit-css/50a16487543de
 ## Looking for a little LESS?
 
 [Peter Wilson](http://twitter.com/pwcc) is maintaining a LESS port of inuit.css:
-check the [GitHub repo](https://github.com/peterwilsoncc/inuit.css).
+check [the GitHub repo](https://github.com/peterwilsoncc/inuit.css).
+
+## Using Compass?
+
+[Stephen Way](http://github.com/stephenway) is maintaining a Compass port of
+inuit.css: check [the GitHub repo](https://github.com/stephenway/compass-inuit).
 
 ## Test-drive
 
