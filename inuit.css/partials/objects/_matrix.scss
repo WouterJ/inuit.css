@@ -78,7 +78,7 @@
         width:50%;
     }
     .three-cols > li{
-        width:33.333%;
+        @include column(3, 1);
     }
     .four-cols > li{
         width:25%;

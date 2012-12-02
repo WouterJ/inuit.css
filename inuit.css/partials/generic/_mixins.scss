@@ -83,3 +83,13 @@
     overflow:hidden;
     text-overflow:ellipsis;
 }
+
+/**
+ * Create the width of a column of a grid system.
+ *
+   `@include column(3, 1);`
+ *
+ */
+@mixin column($columns, $part = 1){
+    width:100 / $columns * $part +"%";
+}
